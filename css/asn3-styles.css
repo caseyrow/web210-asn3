@@ -1,0 +1,81 @@
+/* color palette:
+https://coolors.co/6c9a8b-e8998d-eed2cc-fbf7f4-0b2027
+
+#6C9A8B - dark teal
+#E8998D - pink-coral
+#EED2CC - dusty rose
+#FBF7F4 - cream-white
+#0B2027 - dark blue-green
+*/
+
+/* Global styles 
+---------------------------> */
+body {
+    color: #0B2027;
+}
+
+a {
+    color: #0B2027;
+}
+
+a:link {
+    color: #6C9A8B;
+}
+
+a:visited {
+    color: #EED2CC;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+}
+
+
+/* Profile
+---------------------------> */
+header {
+    background: #6C9A8B;
+}
+
+/* Projects
+---------------------------> */
+.projects {
+    background: #E8998D;
+}
+
+.projects .btn {
+    color: #6C9A8B;
+    background: #0B2027;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover {
+    background: rgba(11, 32, 39, 80%);
+}
+
+/* Work experience 
+---------------------------> */
+.work-experience {
+    background: #EED2CC;
+}
+
+
+/* Education
+---------------------------> */
+.education {
+    background: #FBF7F4;
+}
+
+
+/* Contact info
+---------------------------> */
+footer {
+    background: #0B2027;
+    color: #FBF7F4;
+}
